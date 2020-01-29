@@ -1,0 +1,25 @@
+.menu-bar{
+    min-height: 100vh;
+    
+    width : 20%;
+    background-color: rgb(20, 53, 112);
+    
+}
+
+.nav-buttons{
+
+    margin-top : 30px;
+    height : 50px;
+    width : 150px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.chat-window-area{
+    position: absolute;
+    top : 0%;
+    left : 25%;
+    width : 70%;
+    height: 100%;
+}

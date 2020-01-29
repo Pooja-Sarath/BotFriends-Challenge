@@ -1,0 +1,48 @@
+.flex-container{
+
+    display : flex;
+    flex-direction: column;
+    justify-content: center; /* center horizontally */
+    height : 70%;
+}
+
+.chat-bubble-user{
+   
+    align-self: flex-start;
+    margin-top: 20px;
+    height: 30px;
+    display: block;
+    border : 1px solid black;
+    border-radius : 5px;
+    justify-content: stretch;
+}
+
+.chat-bubble-server{
+   
+    align-self: flex-end;
+    margin-top: 20px;
+    height: 30px;
+    display: block;
+    border : 1px solid black;
+    border-radius : 5px;
+    justify-content: stretch;
+    
+}
+
+.text-area{
+    
+    font-size: 1.5em;
+    height : 40px;
+    width : 80%;
+    border : 2px solid black;
+    border-radius : 5px
+}
+
+.send-button {
+    
+    margin-left: 10px;
+    height: 40px;
+    width : 80px;
+    border : 1px solid grey;
+    border-radius: 3px;
+}

@@ -1,0 +1,78 @@
+.main-flex{
+    display : block;
+    align-items: flex-start;
+    
+}
+
+.flex-container{
+    
+    display : flex;
+    flex-direction: column;
+    justify-content: center; /* center horizontally */
+    margin-top: 30px;
+    flex: 80%;
+}
+
+.chat-bubble-user{
+   
+    align-self: flex-start;
+    margin-top: 20px;
+    height: 30px;
+    display: block;
+    border : 1px solid black;
+    border-radius : 5px;
+    justify-content: stretch;
+}
+
+.chat-bubble-server{
+   
+    align-self: flex-end;
+    margin-top: 20px;
+    height: 30px;
+    display: block;
+    border : 1px solid black;
+    border-radius : 5px;
+    justify-content: stretch;
+    
+}
+
+.text-area{
+    /* position: absolute;
+    top: 85%;
+    left : 2%;
+    margin-top: 30px;
+    font-size: 1.5em;
+    height : 40px;
+    width : 80%;
+    border : 2px solid black;
+    border-radius : 5px */
+    position: absolute;
+    top: 85%;
+    left : 2%;
+    margin-top: 30px;  
+    font-size: 1.5em;
+    height : 40px;
+    width : 80%;
+    border : 2px solid black;
+    border-radius : 5px
+}
+
+.send-button {
+    
+    /* position: absolute;
+    top: 90%;
+    right : 8%;
+    margin-left: 10px;
+    height: 45px;
+    width : 80px;
+    border : 1px solid grey;
+    border-radius: 3px; */
+    position: absolute;
+    top: 90%;
+    right : 8%;
+    margin-left: 5px;
+    height: 45px;
+    width : 80px;
+    border : 1px solid grey;
+    border-radius: 3px;
+}

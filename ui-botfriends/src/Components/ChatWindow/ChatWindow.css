@@ -76,3 +76,12 @@
     border : 1px solid grey;
     border-radius: 3px;
 }
+
+.name-circle{
+    height: 30px;
+    align-self: flex-start;
+    width: 30px;
+    border : 1px solid black;
+    border-radius: 50%;
+    background-color: #bbb;
+}

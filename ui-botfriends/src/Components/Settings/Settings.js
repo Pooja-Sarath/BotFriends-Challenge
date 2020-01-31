@@ -33,6 +33,8 @@ class Settings extends Component{
             })
 
             
+        } else {
+            alert('Enter the webhook URL and the webhook secret')
         }
         
     }

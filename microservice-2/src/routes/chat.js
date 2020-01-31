@@ -12,7 +12,7 @@ const express = require('express');
         var responseMsg = msg.replace(regExp1, 'Pooja').replace(regExp2, 'Ambekar');
         res.status(200).json({success :1, msg : responseMsg});
     } else {
-        res.status(400).json({success: 0, msg : 'Secret key is incorrect'})
+        res.status(200).json({success: 0, msg : 'Secret key is incorrect'})
     }
  });
 

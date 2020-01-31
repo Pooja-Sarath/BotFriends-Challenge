@@ -4,12 +4,11 @@ const auth = async(req,res,next) =>{
     try{
         const token = req.header('x-api-key');
         const decode = jwt.verify(token,'thisismynewcourse');
-        console.log(decode.id);
         if(decode.id == '26823ru2hir2r'){
             req.valid = true;
             next();
         } else {
-            res.status(400).json({success: 0, msg : 'Secret key is incorrect'});
+            res.status(200).json({success: 0, msg : 'Secret key is incorrect'});
         }
         
         
